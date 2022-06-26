@@ -111,6 +111,7 @@ public class AddMobileInCart extends BaseClass {
 
 	@AfterClass
 	public void afterClass() {
+		System.out.println("This is after class");
 
 		driver.quit();
 	}
