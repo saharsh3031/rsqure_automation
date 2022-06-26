@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import com.Automation.BaseClass;
 import com.Automation.PropertyHandlling;
-import com.pageClass.Amazon;
+import com.rsqurepages.Amazon;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;

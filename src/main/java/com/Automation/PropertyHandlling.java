@@ -11,7 +11,7 @@ public class PropertyHandlling {
 	public PropertyHandlling() throws IOException {
 		
 		
-		String filePath = "C:\\Users\\Sayu\\eclipse-workspace\\AmazonAutomation\\config.property";
+		String filePath = System.getProperty("user.dir")+"\\config.property";
 		proprty = new Properties();
 		
 		FileInputStream input = new FileInputStream(filePath);

@@ -54,14 +54,14 @@ public class BaseClass {
 		}
 	}
 
-//	public static String generateRandomString(int count) {
-//
-//		Random random = new Random();
-//
-//		return random.ints(65, 90).limit(count)
-//				.collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append).toString();
-//
-//	}
+	public static String generateRandomString(int count) {
+
+		Random random = new Random();
+
+		return random.ints(65, 90).limit(count)
+				.collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append).toString();
+
+	}
 	
 	public void createFolder(String filepath) {
 		File file = new File(filepath);
